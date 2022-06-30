@@ -42,5 +42,6 @@ echo "<a href='download.php?idx=".$_GET["idx"]."'>첨부파일 다운로드 </a>
 <?php
 if($row["author"] == $_SESSION["id"]){
   echo "<button type='button' class='NavBtn' onClick='location.href=".'"write.php?idx='.$_GET["idx"].'"'."'>수정</button>";
+  echo "<button type='button' class='NavBtn' onClick='location.href=".'"delete.php?idx='.$_GET["idx"].'"'."'>삭제</button>";
 }
 ?>
