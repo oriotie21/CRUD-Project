@@ -19,9 +19,7 @@
    <tr>
   <td>비밀번호 확인</td>
   <td><input type="password" size=10 id="pw_check" name="pw_check"/></td>
-  </tr>
-  
-  </tr>
+    </tr>
   
   </table>
   <input type="submit" value="확인"/> <input type="reset" value="다시입력"/>
